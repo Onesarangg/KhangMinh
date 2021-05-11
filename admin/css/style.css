@@ -1,0 +1,79 @@
+.box-center{
+    width: 70%;
+    margin: 0 auto;
+    margin: 0 0 0 15%;
+    text-align: center;
+    padding: 6% 0;
+    min-height: 800px;
+    font-family: 'Roboto', sans-serif;
+}
+.c-bg{
+    background-color: #eaeaea;
+}
+.ul{
+    width: 70%;
+    margin: 0 auto;
+    margin: 0 0 0 15%;
+    text-align: center;
+}
+.td-ad-image img{
+    width: 50%;
+}
+.box-cat{
+    width: 100%;
+}
+.mart{
+    margin-top: 5%;
+}
+.mart-form{
+    margin-top: 5%;
+}
+.box-center input[type='text']{
+    width: 50%;
+    min-height: 50px;
+}
+.box-center input[type='button']{
+    width: 30%;
+    min-height: 50px;
+    background-color: #a62c32;
+    border: 0;
+    color: #eaeaea;
+}
+.box-center input[type='file']{
+    width: 30%;
+    min-height: 50px;
+    border: 0;
+    margin-left: 5%;
+}
+select{
+    width: 16%;
+    min-height: 45px;
+    margin-left: 2%;
+}
+textarea{
+    width: 50%;
+}
+.boxleft{
+    width: 20%;
+    min-height: 450px;
+    background-color: aqua;
+    float: left;
+    margin-top: -4%;
+}
+.boxright{
+    width: 80%;
+    min-height: 450px;
+    background-color: #a62c32;
+    float: left;
+}
+.boxleft .boxcenter{
+    width: 100%;
+    padding: 0 2%; 
+}
+.tab-content tr td button{
+    border: 0;
+    background-color: #eaeaea00;
+}
+.tab-content tr td button:hover{
+    color: #a62c32;
+}

@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/styles_sec.css">
+        <link rel="stylesheet" href="../css/style_foo.css">
+        <link rel="stylesheet" href="../css/style_about.css">
+        <link rel="stylesheet" href="../css/style_shopping.css">
+        <link rel="stylesheet" href="../css/style_product.css">
+        <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <header>
+        <div class="row-title">
+            <nav class="box-first">
+                <div class="boxcenter">
+                    <div class="padd">
+                        <div class="round">
+                            <a>VN</a>
+                        </div>
+
+                        <div class="round pad">
+                            <a>EN</a>
+                        </div>
+                        
+                        <div class="round padding">
+                            <a>KO</a>
+                        </div>
+                        
+                        <div class="look">
+                            <input type="text" name="" id=""><a><i class="fa fa-search" style="font-size: 0.8vw;"></i></a> 
+                        </div>
+                    </div>
+                </div>          
+            </nav>
+            <nav class="box-secound">
+                <div class="boxcenter">
+                    <ul>
+                        <li title="LOGOUT"><a href="./../home.html"><i class="fa fa-sign-in" style="font-size: 1.1vw;"></i> LOGOUT</a></li>
+                        <li title="KIỂM TRA ĐƠN HÀNG"><a href="tinhtrang.html"><i class="fa fa-pencil-square-o" style="font-size: 1.1vw;"></i> KIỂM TRA ĐƠN HÀNG</a></li>
+                        <li title="ADMIN"><a><i class="fa fa-user-circle-o" style="font-size: 1.1vw"></i> ADMIN</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="box-logo">
+            <a href="home.html"><img src="../img/logo.png" alt="" srcset=""></a>
+        </div>
+        <nav class="box-menu">
+            <div class="ul">
+                <ul>
+                    <li><a href="catalog.html">QUẢN LÝ LOẠI</a></li>
+                    <li><a href="product.html" style="color: #a62c32;">QUẢN LÝ SẢN PHẨM</a></li>
+                    <li><a href="order_list.html">QUẢN LÝ ĐƠN HÀNG</a></li>
+                    <li><a href="chart.html">THỐNG KÊ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header> 
+    <section>
+                    <div class="box-center">
+                        <div class="box-cat">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist" >
+                                <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Danh sách</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Thêm sản phẩm</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="update-tab" data-bs-toggle="tab" data-bs-target="#update" type="button" role="tab" aria-controls="profile" aria-selected="false">Chỉnh sửa</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+               
+                                    <div class="box-text mart">
+                                        <a style="color: #a62c32;">DANH SÁCH SẢN PHẨM</a>
+                                    </div>
+                                    <!-- <div class="box-table"> -->
+                                        <table class="table table-bordered" style="text-align:center; margin-top: 20px">
+                                            <tr style="background-color: #eaeaea;">
+                                                <th>ID</th>
+                                                <th>ẢNH SẢN PHẨM</th>              
+                                                <th>TÊN SẢN PHẨM</th>
+                                                <th>GIÁ SẢN PHẨM</th>              
+                                                <th>LOẠI SẢN PHẨM</th>
+                                                <th>MÔ TẢ</th>
+                                            </tr>
+                                            <tbody id="pro">
+                                                <!-- <tr style="font-size: 1vw;">
+                                                    <td> 
+                                                        <p>SP001</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td-ad-image">
+                                                            <a href=""><img src="../img/product-pro.png" alt="" srcset=""></a> 
+                                                        </div>
+                                                    </td>
+                                                    <td> 
+                                                        <p>YẾN SÀO KHÁNH HÒA</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td> 
+                                                        <p>Quà tặng</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-edit" style="font-size: 2vw; color: #a62c32;"></i></i></a>
+                                                
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-trash-o" style="font-size: 2vw; color: #a62c32;"></i></a>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr style="font-size: 1vw;">
+                                                    <td> 
+                                                        <p>SP001</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td-ad-image">
+                                                            <a href=""><img src="../img/product-pro.png" alt="" srcset=""></a> 
+                                                        </div>
+                                                    </td>
+                                                    <td> 
+                                                        <p>YẾN SÀO KHÁNH HÒA</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td> 
+                                                        <p>Quà tặng</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-edit" style="font-size: 2vw; color: #a62c32;"></i></i></a>
+                                                
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-trash-o" style="font-size: 2vw; color: #a62c32;"></i></a>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr style="font-size: 1vw;">
+                                                    <td> 
+                                                        <p>SP001</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td-ad-image">
+                                                            <a href=""><img src="../img/product-pro.png" alt="" srcset=""></a> 
+                                                        </div>
+                                                    </td>
+                                                    <td> 
+                                                        <p>YẾN SÀO KHÁNH HÒA</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td> 
+                                                        <p>Quà tặng</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-edit" style="font-size: 2vw; color: #a62c32;"></i></i></a>
+                                                
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-trash-o" style="font-size: 2vw; color: #a62c32;"></i></a>
+                                                        
+                                                    </td>
+                                                </tr>
+                                                <tr style="font-size: 1vw;">
+                                                    <td> 
+                                                        <p>SP001</p>
+                                                    </td>
+                                                    <td>
+                                                        <div class="td-ad-image">
+                                                            <a href=""><img src="../img/product-pro.png" alt="" srcset=""></a> 
+                                                        </div>
+                                                    </td>
+                                                    <td> 
+                                                        <p>YẾN SÀO KHÁNH HÒA</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td> 
+                                                        <p>Quà tặng</p>
+                                                    </td>
+                                                    <td>
+                                                        <p>900.000 VNĐ</p>
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-edit" style="font-size: 2vw; color: #a62c32;"></i></i></a>
+                                                
+                                                    </td>
+                                                    <td>
+                                                            <a href=""><i class="fa fa-trash-o" style="font-size: 2vw; color: #a62c32;"></i></a>
+                                                        
+                                                    </td>
+                                                </tr> -->
+                                            </tbody>
+                                            
+                                          
+                                        </table>
+                                    <!-- </div> -->
+                                </div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="box-text mart">
+                                        <a style="color: #a62c32;">THÊM SẢN PHẨM</a>
+                                    </div>
+                                    <form action="" method="get" style=" margin-top: 20px">
+                                        <input type="text" name="" id="id" placeholder="ID sản phẩm"> <br> <br>
+                                        <p id="IdPro" style="color: red;"></p>
+                                        <input type="text" name="" id="name" placeholder="Tên sản phẩm"> <br> <br>
+                                        <p id="mes" style="color: red;"></p>
+                                        <input type="text" name="" id="price" placeholder="Giá sản phẩm"> <br> <br>
+                                        <p id="pri" style="color: red;"></p>
+                                        <input type="file" name="" id="image" placeholder="Chọn ảnh"> <br> <br>
+                                        <p id="fil" style="color: red;"></p>
+                                        <input type="text" name="" id="wei" placeholder="Khối lượng"> <br> <br>
+                                        <p id="weiE" style="color: red;"></p>
+                                        <textarea name="" id="des" cols="30" rows="10" placeholder="Mô tả sản phẩm"></textarea> <br> <br>
+                                        <p id="desc" style="color: red;"></p>
+                
+                                        <input type="button" value="Lưu" id="save" onclick="addPro()">
+                                    </form>
+                                    
+                                </div>
+                                <div class="tab-pane fade" id="update" role="tabpanel" aria-labelledby="profile-tab">
+                                    <div class="box-text mart">
+                                        <a style="color: #a62c32;">CẬP NHẬT LOẠI</a>
+                                    </div>
+                                    <form action="" method="get" style=" margin-top: 20px">
+                                        <input type="text" name="" id="idPro" placeholder="ID sản phẩm" readonly> <br> <br>
+                                        <p id="uIdPro" style="color: red;"></p>
+                                        <input type="text" name="" id="namePro" placeholder="Tên sản phẩm"> <br> <br>
+                                        <p id="umes" style="color: red;"></p>
+                                        <input type="text" name="" id="pricePro" placeholder="Giá sản phẩm"> <br> <br>
+                                        <p id="upri" style="color: red;"></p>
+                                        <input type="file" name="" id="imagePro" placeholder="Chọn ảnh"> <br> <br>
+                                        <p id="ufil" style="color: red;"></p>
+                                        <input type="text" name="" id="weiPro" placeholder="Khối lượng"> <br> <br>
+                                        <p id="uweiE" style="color: red;"></p>
+                                        <textarea name="" id="desPro" cols="30" rows="10" placeholder="Mô tả sản phẩm"></textarea> <br> <br>
+                                        <p id="udesc" style="color: red;"></p>
+
+                                        <input type="button" value="Lưu" id="update" onclick="updateSP(document.getElementById('idPro').value)">
+                                    </form>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="./js/product.js"></script>
+</body>
+</html>

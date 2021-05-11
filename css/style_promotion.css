@@ -1,0 +1,53 @@
+.box-product-promo{
+    width: 100%;
+}
+.bg-promo{
+    background-image: url(./../img/banner-promotion.png);
+    background-size: 100%;
+    background-repeat: repeat;
+}
+.pro-promo{
+    width: 22.75%;
+    float: left;
+    min-height: 300px;
+}
+.box-pro--{
+    width: 95%;
+    float: left;
+    min-height: 270px;
+    background-color: white;
+}
+.pro--{
+    width: 100%;
+    float: left;
+    min-height: 270px;
+    padding: 15% 2% 0% 2%;
+}
+.box-pro--:hover{
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    transition: 2s;
+    height: 300px;
+}
+.promo-read-more{
+    width: 10%;
+    min-height: 40px;
+    border: 0;
+    text-align: center;  
+    font-size: 1vw;
+    padding: 1%;
+    margin: 90% 45% 5% 45%;
+}
+.promo-read-more a{
+    color: beige;
+}
+.pro-promo:hover .pro-price-new{
+    color: #a62c32;
+}
+.pro-promo:hover .pro-button{
+    background-color: #a62c32;
+}
+.pro-promo:hover .pro-button a{
+    color: white;
+}

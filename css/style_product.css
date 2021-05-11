@@ -1,0 +1,86 @@
+.box-infomation-pro{
+    padding: 6% 0 4% 0%;
+    text-align: center;
+}
+.box-look{
+    width: 100%;
+    float: left;
+    min-height: 100px;
+    background-color: #f7f7f7;
+    margin: 5% 0 5% 0;
+    padding: 2% 5% ;
+    text-align: left;
+}
+.look-box{
+    width: 23.75%;
+    float: left;
+}
+.mar{
+    margin-right: 2.25%;
+}
+.look-box a{
+    font-size: 1vw;
+    font-weight: bolder;
+    color: black;
+}
+.look-box select{
+    width: 90%;
+    padding: 2%;
+    margin: 2% 0 0 10%;
+    font-size: 1.1vw;
+    border: 1px solid #eaeaea;
+}
+.look-box-price{
+    width: 28.5%;
+    float: left;  
+}
+.look-box-price a{
+    font-size: 1vw;
+    font-weight: bolder;
+    color: black;
+}
+.look-box-price input[type="number"]{
+    width: 90%;
+    padding: 2%;
+    margin: 2% 0 0 10%;
+    font-size: 1.1vw;
+    border: 1px solid #eaeaea;
+}
+.look-box-btn{
+    width: 15%;
+    float: left;
+}
+.look-box-btn input[type="button"]{
+    width: 90%;
+    padding: 4%;
+    margin: 22% 0 0 5%;
+    font-size: 1vw;
+    color: #eaeaea;
+    border: 1px solid #a62c32;
+    background-color: #a62c32;
+}
+
+.box-product-pro{
+    width: 100%;
+}
+
+.pro-read-more{
+    width: 10%;
+    min-height: 40px;
+    background-color: #a62c32;
+    border: 0;
+    text-align: center;  
+    font-size: 1vw;
+    padding: 1%;
+    margin: 95% 45% 5% 45%;
+}
+.pro-read-more a{
+    color: beige;
+}
+
+.box-pro-pro{
+    width: 22.75%;
+    float: left;
+    min-height: 330px;
+    background-color: white;
+}

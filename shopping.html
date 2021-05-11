@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O.N.E</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/styles_sec.css">
+        <link rel="stylesheet" href="./css/style_foo.css">
+        <link rel="stylesheet" href="./css/style_about.css">
+        <link rel="stylesheet" href="./css/style_shopping.css">
+        <link rel="stylesheet" href="./css/style_product.css">
+    </head>
+    <body>
+
+    <header>
+        <div class="row-title">
+            <nav class="box-first">
+                <div class="boxcenter">
+                    <div class="padd">
+                        <div class="round">
+                            <a>VN</a>
+                        </div>
+
+                        <div class="round pad">
+                            <a>EN</a>
+                        </div>
+                        
+                        <div class="round padding">
+                            <a>KO</a>
+                        </div>
+                        
+                        <div class="look">
+                            <input type="text" name="" id=""><a><i class="fa fa-search" style="font-size: 0.8vw;"></i></a> 
+                        </div>
+                    </div>
+                </div>          
+            </nav>
+            <nav class="box-secound">
+                <div class="boxcenter">
+                    <ul>
+                        <li title="GIỎ HÀNG"><a href="shopping.html" style=" color: #a62c32;"><i class="fa fa-shopping-cart" style="font-size: 1.1vw; "></i> GIỎ HÀNG</a></li>
+                        <li title="KIỂM TRA ĐƠN HÀNG"><a><i class="fa fa-pencil-square-o" style="font-size: 1.1vw;"></i> KIỂM TRA ĐƠN HÀNG</a></li>
+                        <li title="ĐĂNG NHẬP"><a href="login.html"><i class="fa fa-sign-in" style="font-size: 1.1vw;"></i> ĐĂNG NHẬP</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="box-logo">
+            <a href="home.html"><img src="./img/logo.png" alt="" srcset=""></a>
+        </div>
+        <nav class="box-menu">
+            <div class="boxcenter">
+                <ul>
+                    <li><a href="home.html">TRANG CHỦ</a></li>
+                    <li><a href="about.html">GIỚI THIỆU</a></li>
+                    <li><a href="product.html">SẢN PHẨM</a></li>
+                    <li><a href="promotion.html">KHUYẾN MÃI</a></li>
+                    <li><a href="news.html">TIN TỨC</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="row six six-bg">
+            <div class="six-text">
+                <a class="six-deco">More than a gift <br> it's love</a>
+            </div>
+        </div>
+        <div class="row thirst">
+            <div class="boxcenter">
+                <div class="box-infomation">
+                    <div class="box-text">
+                        <a style="color: #a62c32;">GIỎ HÀNG CỦA TÔI</a>
+                    </div>
+                    <div class="box-table">
+                        <table class="table table-bordered">
+                            <tr style="background-color: #eaeaea;">
+                                <th></th>
+                                <th colspan="2">SẢN PHẨM</th>              
+                                <th>ĐƠN GIÁ</th>
+                                <th>SỐ LƯỢNG</th>
+                                <th>TỔNG GIÁ</th>
+                            </tr>
+                            <tbody id="cart">
+                                <!-- <tr>
+                                    <td><i class="fa fa-trash-o" style="font-size:24px"></i></td>
+                                    <td colspan="2"> 
+                                        <div class="td-image">
+                                            <a href="detail.html"><img src="./img/product-pro.png" alt="" srcset=""></a> 
+                                        </div>    
+                                        <div class="td-text">
+                                            <a href="detail.html">YẾN SÀO KHÁNH HÒA</a> 
+                                            <p href="">Còn hàng</p>
+                                        </div>
+                                    </td>
+                                    <td>
+                                        <div class="td-price">
+                                            <p name="price">900000</p>
+                                        </div>
+                                    </td>
+                                    <td class="name-num">
+                                        <div class="td-num">
+                                            <input type="number" name="number" id="" min="1"  disabled=true onchange="join_num()"></td>
+                                        </div>
+                                    <td>
+                                        <div class="td-price">
+                                            <p name="cost">0</p>
+                                        </div>
+                                    </td>
+                                </tr> -->
+                            </tbody>
+                            
+                            <!-- <tr>
+                                <td colspan="3"></td>
+                                <td style="font-size: 1vw;">Tạm tính: </td> 
+                                <td></td>
+                                <td style="font-weight: bolder;" id="sum">0 VNĐ</td>                  
+                            </tr> -->
+                            <tr>
+                                <td colspan="3"></td>
+                                <td colspan="3" style="font-weight: bolder; font-size: 1.1vw;" onchange="join_num()">
+                                        Tổng tiền:
+                                    <a id="sum" style="float: right; font-weight: bolder; font-size: 1.5vw; color: #a62c32;">0 VNĐ</a> 
+                                </td>     
+                            </tr>
+                        </table>
+                        <div class="box-look">
+                            <div class="box-btn">
+                                <a href="product.html"><input type="button" value="TIẾP TỤC MUA HÀNG"></a>
+                            </div>
+
+                            <div class="bt-pay">
+                                <a href="order.html"><input type="button" value="TIẾN HÀNH ĐẶT HÀNG"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    <footer>
+        <div class="boxcenter">
+            <div class="box foo-mr">
+                <div class="box-about-foo">
+                    <div class="hr">
+                        <a style="color: #eaeaea; font-size: 1.4vw; text-decoration: none;">ABOUT US</a> <hr>
+                        <a href="home.html"> <img src="./img/logo-wb.png" alt="" srcset=""></a> <br>
+                        <p>Lầu 8, Tòa nhà SAMCO, 326 Võ Văn Kiệt, Phường Cô Giang, Quận 1, TP.HCM. </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box foo-mr">
+                <div class="box-menu-foo">
+                    <div class="hr">
+                        <a style="color: #eaeaea; font-size: 1.4vw; text-decoration: none;">MENU</a> <hr>
+                        <ul>
+                            <li><a href="about.html">GIỚI THIỆU</a></li>
+                            <li><a href="product.html">SẢN PHẨM</a> </li>
+                            <li><a href="promotion.html">KHUYẾN MÃI</a></li>
+                            <li><a href="">TIN TỨC</a></li>
+                            <li><a href="">HƯỚNG DẪN</a></li>
+                            <li><a href="">LIÊN HỆ</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="box-sub-foo">
+                    <div class="hr">
+                        <a style="color: #eaeaea; font-size: 1.4vw; text-decoration: none;">SUBCRIBE</a> <hr>
+                        <p style="font-size: 0.8vw;">Lorem ipsum dolor sit amet your email oke.</p>
+                        <input type="text" name="" id="" placeholder="Your Email">
+                        <input type="button" value="SEND US">
+                        <div class="box-socal">
+                            <a href="" style="margin: 0 10% 0 -2%;"><img src="./img/bo-logo.png" alt="" srcset=""></a>
+                            <a href=""><i class="fa fa-facebook-square"></i></a>
+                            <a href=""><i class="fa fa-instagram"></i></a>
+                            <a href=""><i class="fa fa-google"></i></a>
+                            <a href=""><i class="fa fa-twitter"></i></a>
+                        </div>
+                        <p style="font-size: 0.8vw;">Design by Web4gsolutions</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="./js/client.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <!-- <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script> -->
+    <!-- <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyATPHPU9EG_79FdQGIO_XfpoWKIp2TjeE0",
+            authDomain: "khang-minh.firebaseapp.com",
+            databaseURL: "https://khang-minh-default-rtdb.firebaseio.com",
+            projectId: "khang-minh",
+            storageBucket: "khang-minh.appspot.com",
+            messagingSenderId: "766670280500",
+            appId: "1:766670280500:web:d6b4360a528e8b646cb761"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        
+        // let ten = document.getElementById('pro-name');
+        // let fb = firebase.database().ref('Product/Pro1').child('namePro');
+        // fb.on('value', snap => ten.innerText = snap.val());
+    </script> -->
+    <script src="./js/cart.js"></script>    
+</body>
+</html>

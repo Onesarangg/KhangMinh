@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/styles_sec.css">
+        <link rel="stylesheet" href="../css/style_foo.css">
+        <link rel="stylesheet" href="../css/style_about.css">
+        <link rel="stylesheet" href="../css/style_shopping.css">
+        <link rel="stylesheet" href="../css/style_product.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="row-title">
+                <nav class="box-first">
+                    <div class="boxcenter">
+                        <div class="padd">
+                            <div class="round">
+                                <a>VN</a>
+                            </div>
+    
+                            <div class="round pad">
+                                <a>EN</a>
+                            </div>
+                            
+                            <div class="round padding">
+                                <a>KO</a>
+                            </div>
+                            
+                            <div class="look">
+                                <input type="text" name="" id=""><a><i class="fa fa-search" style="font-size: 0.8vw;"></i></a> 
+                            </div>
+                        </div>
+                    </div>          
+                </nav>
+                <nav class="box-secound">
+                    <div class="boxcenter">
+                        <ul>
+                            <li title="LOGOUT"><a href="./../home.html"><i class="fa fa-sign-in" style="font-size: 1.1vw;"></i> LOGOUT</a></li>
+                            <li title="KIỂM TRA ĐƠN HÀNG"><a href="tinhtrang.html"><i class="fa fa-pencil-square-o" style="font-size: 1.1vw;"></i> KIỂM TRA ĐƠN HÀNG</a></li>
+                            <li title="ADMIN"><a><i class="fa fa-user-circle-o" style="font-size: 1.1vw"></i> ADMIN</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="box-logo">
+                <a href="home.html"><img src="../img/logo.png" alt="" srcset=""></a>
+            </div>
+            <nav class="box-menu">
+                <div class="ul">
+                    <ul>
+                        <li><a href="catalog.html">QUẢN LÝ LOẠI</a></li>
+                        <li><a href="product.html">QUẢN LÝ SẢN PHẨM</a></li>
+                        <li><a href="order_list.html">QUẢN LÝ ĐƠN HÀNG</a></li>
+                        <li><a href="chart.html" style="color: #a62c32;">THỐNG KÊ</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <section> 
+        <div class="box-center" style="min-height: 150px;">
+            <div class="box-cat">
+                <ul class="nav nav-tabs" id="myTab" role="tablist" >
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Biểu đồ</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Bảng thống kê</button>
+                    </li>
+                </ul>
+         
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        
+                        <div class="box-text mart">
+                            <a style="color: #a62c32;">BIỂU ĐỒ DOANH THU</a>
+                        </div>
+                        <div class="box-table ">
+                            <div id="line_top_x" class="c-bg"></div>
+                            <canvas id="myChart" width="400" height="400"></canvas>
+                            </div>
+                    </div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                        <div class="box-text mart">
+                            <a style="color: #a62c32;">THỐNG KÊ DOANH THU</a>
+                            <p>(Theo Sản Phẩm Đã Bán)</p>
+                        </div>
+                        <div class="box-table">
+                            <table class="table table-bordered">
+                                <tr style="background-color: #eaeaea;" id="cat">
+                                    <th>Yến huyết đảo yến thiên nhiên Khánh Hòa</th>
+                                    <th>Yến hồng thiên nhiên Khánh Hòa</th>              
+                                    <th>Yến sào tinh chế làm sạch</th>
+                                    <th>Yến sào tinh chế mẫu hộp quà tặng</th>
+                                    <th>Nước yến Sanest Collagen</th>
+                                    <th>Nước yến nhân sâm Fucoidan</th>
+                                </tr>
+                                <tr id="amount">
+                                    <!-- <td>
+                                            <p>9.900.000 VNĐ</p>
+                                    </td>
+                                    <td>
+                                            <p>15.900.000 VNĐ</p>
+                                    </td>
+                                    <td>
+                                            <p>18.900.000 VNĐ</p>
+                                    </td>
+                                    <td>
+                                            <p>32.900.000 VNĐ</p>
+                                    </td> -->
+                                </tr>
+                                
+                            </table>
+                    </div> 
+                        </div>
+                    </div>
+                                                
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        </section>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/chart.js@3.1.1/dist/chart.min.js"></script>
+        <script defer>
+        //   google.charts.load('current', {'packages':['bar']});
+        //   google.charts.setOnLoadCallback(drawStuff);
+    
+        //   function drawStuff() {
+        //     getChart()
+        //     var data = new google.visualization.arrayToDataTable([
+        //       ['Move', 'Percentage'],
+        //       ["King's pawn (e4)", 44],
+        //       ["Queen's pawn (d4)", 31],
+        //       ["Knight to King 3 (Nf3)", 12],
+        //       ["Queen's bishop pawn (c4)", 10],
+        //       ['Other', 3]
+        //     ]);
+    
+        //     var options = {
+        //       width: 950,
+        //       height: 450,
+        //       legend: { position: 'none' },
+        //       chart: {
+        //         title: 'Sản phẩm đã bán',
+        //         subtitle: 'Biểu đồ sản phẩm đã bán' },
+        //       axes: {
+                
+        //       },
+        //       bar: { groupWidth: "90%" }
+        //     };
+    
+        //     var chart = new google.charts.Bar(document.getElementById('line_top_x'));
+        //     // Convert the Classic options to Material options.
+        //     chart.draw(data, google.charts.Bar.convertOptions(options));
+        //   };
+        const url = 'http://localhost:3000'
+        const urlOr = url + '/Order_details'
+
+        const fetchAPI = async (url, options) => {
+            const res = await fetch(url, options)
+            return res.json()
+        }
+
+        const getChart = async () => {
+            const options = {
+                method: 'GET', // *GET, POST, PUT, DELETE, etc.
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                //body: JSON.stringify(cat)
+            }
+            const res = await fetchAPI(urlOr, options)
+            const arr = []
+            for (let i in res){
+            let or = res[i].product_id
+                arr.push(or)
+                // listChart[i].product_id.forEach(function(i) { 
+                //     count[i] = (count[i]||0) + 1;
+                // });
+                
+                }
+                console.log(arr);
+                // var map = arr.reduce(function(prev, cur) {
+                // prev[cur] = (prev[cur] || 0) + 1;
+                // return prev;
+                // }, {});
+                // var sum = []
+                // arr.forEach(function(x) { sum[x] = (sum[x] || 0)+1; });
+                var counts = {};
+                // let sum = []
+                arr.forEach(function(x) { counts[x] = (counts[x] || 0)+1; });
+// map is an associative array mapping the elements to their frequency:
+                console.log(counts);
+
+                const sum = Object.keys(counts).map((key) => [counts[key]]);
+
+        console.log(sum);                // const count = JSON.stringify(map)
+// prints {"a": 3, "b": 2, "c": 2, "d": 2, "e": 2, "f": 1, "g": 1, "h": 3}
+        let keys = []
+        let val = []
+        for(let i = 0; i < sum.length; i++){
+            let al = i + 1
+            val.push(al)
+        }
+        
+        for (const a in sum) {
+            document.getElementById('amount').innerHTML += 
+        `
+            <td>
+                <p>${sum[a]} (đã bán)</p>
+            </td>
+        `    
+        }
+      
+        let ctx = document.getElementById('myChart').getContext('2d');
+        let myChart = new Chart(ctx, {
+            type: 'bar',
+            data: {
+                labels: ['Yến huyết đảo yến thiên nhiên Khánh Hòa', 'Yến hồng thiên nhiên Khánh Hòa', 'Yến sào tinh chế làm sạch', 'Yến sào tinh chế mẫu hộp quà tặng', 'Nước yến Sanest Collagen', 'Nước yến nhân sâm Fucoidan'],
+                datasets: [{
+                    label: 'Số lượng sản phấm bán ra',
+                    data: sum,
+                    backgroundColor: [
+                        '#a62c32',
+                    ],
+                    borderColor: [
+                        '#a62c32'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                }
+            }
+        });
+    }
+
+    getChart()
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
+    <!-- <script src="./js/chart.js"></script> -->
+</body>
+</html>

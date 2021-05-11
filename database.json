@@ -1,0 +1,278 @@
+{
+  "Catalog": [
+    {
+      "nameCat": "Tổ yến thô",
+      "id": 1
+    },
+    {
+      "nameCat": "Tổ yến tinh chế",
+      "id": 2
+    },
+    {
+      "nameCat": "Nước yến",
+      "id": 3
+    }
+  ],
+  "Product": [
+    {
+      "id": 1,
+      "namePro": "Yến huyết đảo yến thiên nhiên Khánh Hòa",
+      "desPro": "Yến huyết thiên nhiên nguyên tổ là loại tổ yến có màu đỏ tự nhiên được khai thác trực tiếp từ các đảo yến thiên nhiên Khánh Hòa, có mùi vị đặc trưng của tổ yến thiên nhiên với hàm lượng dinh dưỡng rất cao và được các chuyên gia dinh dưỡng đánh giá có chất lượng hàng đầu thế giới.",
+      "imagePro": "YSKH_024.jpg",
+      "pricePro": 25300000,
+      "weiPro": "Hộp 100g"
+    },
+    {
+      "id": 2,
+      "namePro": "Yến hồng thiên nhiên Khánh Hòa",
+      "catPro": "Tổ yến thô",
+      "desPro": "Là sản phẩm đã được làm sạch bề mặt, loại bỏ tối đa lông chim và tạp chất, khi sử dụng khách hàng phải làm sạch kỹ lại trước khi đưa vào chế biến. Sản phẩm Yến hồng đảo yến thiên nhiên Khánh Hòa hộp 100g (mã số: 026), bao gồm những tổ yến hồng còn nguyên tổ, màu hồng nhạt có giá trị dinh dưỡng cao.",
+      "imagePro": "YSKH_026.jpg",
+      "pricePro": 19250000,
+      "weiPro": "Hộp 100g"
+    },
+    {
+      "id": 3,
+      "catPro": "Tổ yến tinh chế",
+      "desPro": "Sản phẩm Yến sào đảo yến thiên nhiên tinh chế hộp 100g có mã sản phẩm 014 với trọng lượng yến 100g. <br> Yến sào đảo yến thiên nhiên tinh chế là sản phẩm đã được làm sạch hoàn toàn từ yến đảo thiên nhiên Khánh Hòa, do Công ty Yến sào Khánh Hoà trực tiếp quản lý, khai thác, chế biến. Khi sử dụng, khách hàng đưa ngay vào chế biến, không cần phải làm sạch lại. <br> <br> Yến sào đảo yến thiên nhiên sau thu hoạch sẽ được xử lý qua tiệt trùng ở nhiệt độ 800C trong 30 phút bằng thiết bị tiệt trùng hiện đại. Sau đó chuyển sang xử lý tinh chế bằng phương pháp thủ công bởi đôi bàn tay cần mẫn của người công nhân nhà máy, tiếp theo là sấy khô, tiệt trùng và đóng gói trên dây chuyền máy móc hiện đại.",
+      "imagePro": "YSKH_014.jpg",
+      "namePro": "Yến sào tinh chế làm sạch",
+      "pricePro": 6820000,
+      "weiPro": "Hộp 100g"
+    },
+    {
+      "id": 4,
+      "catPro": "Tổ yến tinh chế",
+      "desPro": "Sản phẩm yến sào nguyên chất từ đảo yến thiên nhiên tinh chế mẫu hộp quà tặng 100g - MS 014GS, gồm có 100g yến tinh chế, tặng kèm 1 thố chưng yến, 1 tổ yến đảo nguyên tổ, được đóng gói với mẫu mã thiết kế sang trọng theo kiểu dáng hộp quà tặng, thích hợp làm quà biếu tặng trong những dịp lễ, Tết. <br> <br> Yến sào đảo yến thiên nhiên tinh chế là sản phẩm đã được làm sạch hoàn toàn từ yến đảo thiên nhiên Khánh Hòa, do Công ty Yến sào Khánh Hoà trực tiếp quản lý, khai thác từ các đảo yến thiên nhiên trên vùng biển Khánh Hòa. Sản phẩm không sử dụng hóa chất, hương liệu và chất bảo quản. Vì vậy sản phẩm yến đảo tinh chế của Công ty luôn giữ được giá trị bổ dưỡng với hương vị đặc trưng tự nhiên của yến sào đảo thiên nhiên. Khi sử dụng, khách hàng đưa ngay vào chế biến, không cần phải làm sạch lại.<br> <br> Yến sào đảo yến thiên nhiên sau thu hoạch sẽ được xử lý qua tiệt trùng ở nhiệt độ 800C trong 30 phút bằng thiết bị tiệt trùng hiện đại. Sau đó chuyển sang xử lý tinh chế bằng phương pháp thủ công bởi đôi bàn tay cần mẫn của người công nhân nhà máy, tiếp theo là công đoạn sấy khô, tiệt trùng và đóng gói trên dây chuyền máy móc hiện đại.",
+      "imagePro": "YSKH_014GS.jpg",
+      "namePro": "Yến sào tinh chế mẫu hộp quà tặng",
+      "pricePro": 7535000,
+      "weiPro": "Hộp 100g"
+    },
+    {
+      "id": 5,
+      "catPro": "Nước yến",
+      "desPro": "Sản phẩm Nước Yến sào Khánh Hòa Collagen là sản phẩm được chế biến từ nguồn Yến sào đảo thiên nhiên và giữ nguyên tính năng của Yến sào đảo thiên nhiên. <br> <br> - Yến sào: Bổ huyết, tăng sức đề kháng cho cơ thể, chống lão hóa, ổn định thần kinh, trí nhớ, kích thích tiêu hóa, phục hồi sức khỏe nhanh chóng trong thời gian dưỡng bệnh. <br> <br> - Collagen: Được chiết xuất từ bò, cá và là một loại protein có nhiều trong cơ thể con người giúp tăng khả năng hấp thu nước qua da, tạo sự tươi trẻ cho làn da.",
+      "imagePro": "YSKH_770H6.jpg",
+      "namePro": "Nước yến Sanest Collagen",
+      "pricePro": 220000,
+      "weiPro": "70ml hộp 6 lọ"
+    },
+    {
+      "id": 6,
+      "catPro": "Nước yến",
+      "desPro": "Sản phẩm Nước Yến sào Fucoidan Nhân sâm Khánh Hòa Sanest là sản phẩm được chế biến từ nguồn Yến sào đảo thiên nhiên và giữ nguyên tính năng của Yến sào đảo thiên nhiên. <br> <br> Nước Yến sào Fucoidan Nhân sâm Khánh Hòa Sanest được sản xuất từ nguồn Yến sào thiên nhiên do Công ty Yến sào Khánh Hòa trực tiếp khai thác tại các đảo Yến Khánh Hòa. <br> <br> - Fucoidan: Tinh chất tự nhiên được chiết xuất từ tảo thiên nhiên. <br> <br> - Nhân sâm: Sử dụng nguồn nhân sâm nhập khẩu thượng hạng.",
+      "imagePro": "YSKH_700H6.jpg",
+      "namePro": "Nước yến nhân sâm Fucoidan",
+      "pricePro": 286000,
+      "weiPro": "70ml hộp 6 lọ"
+    }
+  ],
+  "Order": [
+    {
+      "id": 1,
+      "Address": "p. Tân Chánh Hiệp - Q.12 - TPHCM",
+      "namePer": "Nguyễn Văn A",
+      "note": "Gọi trước 15p",
+      "phone": "03385264798",
+      "price": 14355000,
+      "quantity": 2,
+      "status": "Đang chuẩn bị hàng"
+    },
+    {
+      "id": 2,
+      "Address": "p. Ninh Thủy - tx.Ninh Hòa - t.Khánh Hòa",
+      "namePer": "Lê Thị B",
+      "note": "Gói hàng cẩn thận",
+      "phone": "0867453215",
+      "price": 220000,
+      "quantity": 3,
+      "status": "Đang chuẩn bị hàng"
+    },
+    {
+      "id": 3,
+      "Address": "đ. Hàm Nghi - KĐT Hàm Nghi - Thủ đô Hà Nội",
+      "namePer": "Đỗ Thị H",
+      "note": "Gọi trước 30p khi giao hàng",
+      "phone": "02462871911",
+      "price": 33605000,
+      "quantity": 2,
+      "status": "Đang chuẩn bị hàng"
+    },
+    {
+      "Address": "Khánh Hòa",
+      "namePer": "Lê Nguyễn Như Quanh",
+      "note": "Gói hàng cẩn thận",
+      "phone": "0337111653",
+      "quantity": 2,
+      "price": 572000,
+      "status": "Đang chuẩn bị hàng",
+      "id": 4
+    },
+    {
+      "Address": "Khánh Hòa",
+      "namePer": "Lê Nguyễn Như Quanh",
+      "note": "Gói hàng ",
+      "phone": "0337111653",
+      "quantity": 2,
+      "price": 44550000,
+      "status": "Đang chuẩn bị hàng",
+      "id": 5
+    },
+    {
+      "Address": "qwertyuiop",
+      "namePer": "qwertyuiop",
+      "note": "zsdfghjk",
+      "phone": "0337111653",
+      "quantity": 1,
+      "price": 6820000,
+      "status": "Đang chuẩn bị hàng",
+      "id": 6
+    },
+    {
+      "Address": "sdjvbkjsdnvk",
+      "namePer": "ao",
+      "note": "ádxfcghj",
+      "phone": "0337111653",
+      "quantity": 1,
+      "price": 7535000,
+      "status": "Đang chuẩn bị hàng",
+      "id": 7
+    },
+    {
+      "Address": "qwertyuiop",
+      "namePer": "váy",
+      "note": "qứaedgthj",
+      "phone": "0337111653",
+      "quantity": 1,
+      "price": 19250000,
+      "status": "Đang chuẩn bị hàng",
+      "id": 8
+    }
+  ],
+  "Order_details": [
+    {
+      "order_id": 4,
+      "product_id": 6,
+      "quantity": 3,
+      "id": 1
+    },
+    {
+      "order_id": 4,
+      "product_id": 5,
+      "quantity": 3,
+      "id": 2
+    },
+    {
+      "order_id": 5,
+      "product_id": 3,
+      "quantity": 4,
+      "id": 3
+    },
+    {
+      "order_id": 4,
+      "product_id": 4,
+      "quantity": 13,
+      "unit_price": 97955000,
+      "id": 4
+    },
+    {
+      "order_id": 4,
+      "product_id": 5,
+      "quantity": 8,
+      "unit_price": 1760000,
+      "id": 5
+    },
+    {
+      "order_id": 5,
+      "product_id": 5,
+      "quantity": 1,
+      "unit_price": 220000,
+      "id": 6
+    },
+    {
+      "order_id": 6,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 6820000,
+      "id": 7
+    },
+    {
+      "order_id": 6,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 7535000,
+      "id": 8
+    },
+    {
+      "order_id": 7,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 6820000,
+      "id": 9
+    },
+    {
+      "order_id": 7,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 19250000,
+      "id": 10
+    },
+    {
+      "order_id": 7,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 7535000,
+      "id": 11
+    },
+    {
+      "order_id": 8,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 6820000,
+      "id": 12
+    },
+    {
+      "order_id": 8,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 7535000,
+      "id": 13
+    },
+    {
+      "order_id": 4,
+      "product_id": 6,
+      "quantity": 2,
+      "unit_price": 572000,
+      "id": 14
+    },
+    {
+      "order_id": 5,
+      "product_id": 1,
+      "quantity": 1,
+      "unit_price": 25300000,
+      "id": 15
+    },
+    {
+      "order_id": 6,
+      "product_id": 3,
+      "quantity": 1,
+      "unit_price": 6820000,
+      "id": 16
+    },
+    {
+      "order_id": 7,
+      "product_id": 4,
+      "quantity": 1,
+      "unit_price": 7535000,
+      "id": 17
+    },
+    {
+      "order_id": 8,
+      "product_id": 2,
+      "quantity": 1,
+      "unit_price": 19250000,
+      "id": 18
+    }
+  ]
+}

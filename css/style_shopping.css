@@ -1,0 +1,77 @@
+.box-table{
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-top: 5%;
+}
+.box-table tr td button{
+    border: 0;
+    background-color: #eaeaea00;
+}
+.box-table tr td button:hover{
+    color: #a62c32;
+}
+.box-table td img{
+    width: 50%;
+    height: 100%;
+    object-fit: fill;
+}
+.td-image{
+    width: 50%;
+    float: left;
+}
+.td-text{
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    text-align: left;
+}
+.name-num{
+    width: 15%;
+}
+.td-num input[type="number"]{
+    width: 40%;
+}
+.td-num {  
+    padding: 25% 0;
+}
+.td-price {
+    padding: 35% 0;
+}
+.box-btn input[type='button']{
+    width: 20%;
+    border: 0;
+    min-height: 40px;
+    background-color: white;
+    float: left;
+    margin-right: 3%;
+    font-size: 1vw;
+}
+.bt-new  input[type='button']{
+    width: 20%;
+    border: 0;
+    min-height: 40px;
+    background-color: #a62c32;
+    color: #eaeaea;
+    font-size: 1vw;
+    float: left;
+    padding: 1% 1% 0 0;
+}
+.bt-pay input[type='button']{
+    width: 20%;
+    border: 0;
+    min-height: 40px;
+    background-color: #a62c32;
+    float: right;
+
+    color: #eaeaea;
+    font-size: 1vw;
+}
+/* .car{
+    width: 100%;
+    float: left;
+    background-color: #a62c32;
+    border: 0;
+    font-size: 1vw;
+    color: #eaeaea;
+} */

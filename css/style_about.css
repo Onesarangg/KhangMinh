@@ -1,0 +1,28 @@
+.about{
+    min-height: 1000px;
+    background-color: white;
+}
+.image-about{
+    width: 100%;
+    float: left;
+    margin: 5% 0 5% 0;
+}
+.image-about img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+.text-about{
+    text-align: left;
+}
+.text-about a{
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+.text-about p span{
+    font-size: 2vw;
+    margin-left: 3%;
+    font-weight: bolder;
+    color: #a62c32;
+    font-family: Segoe Script;
+}

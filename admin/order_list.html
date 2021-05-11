@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/styles_sec.css">
+        <link rel="stylesheet" href="../css/style_foo.css">
+        <link rel="stylesheet" href="../css/style_about.css">
+        <link rel="stylesheet" href="../css/style_shopping.css">
+        <link rel="stylesheet" href="../css/style_product.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <header>
+            <div class="row-title">
+                <nav class="box-first">
+                    <div class="boxcenter">
+                        <div class="padd">
+                            <div class="round">
+                                <a>VN</a>
+                            </div>
+    
+                            <div class="round pad">
+                                <a>EN</a>
+                            </div>
+                            
+                            <div class="round padding">
+                                <a>KO</a>
+                            </div>
+                            
+                            <div class="look">
+                                <input type="text" name="" id=""><a><i class="fa fa-search" style="font-size: 0.8vw;"></i></a> 
+                            </div>
+                        </div>
+                    </div>          
+                </nav>
+                <nav class="box-secound">
+                    <div class="boxcenter">
+                        <ul>
+                            <li title="LOGOUT"><a href="./../home.html"><i class="fa fa-sign-in" style="font-size: 1.1vw;"></i> LOGOUT</a></li>
+                            <li title="KIỂM TRA ĐƠN HÀNG"><a href="tinhtrang.html"><i class="fa fa-pencil-square-o" style="font-size: 1.1vw;"></i> KIỂM TRA ĐƠN HÀNG</a></li>
+                            <li title="ADMIN"><a><i class="fa fa-user-circle-o" style="font-size: 1.1vw"></i> ADMIN</a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="box-logo">
+                <a href="home.html"><img src="../img/logo.png" alt="" srcset=""></a>
+            </div>
+            <nav class="box-menu">
+                <div class="ul">
+                    <ul>
+                        <li><a href="catalog.html">QUẢN LÝ LOẠI</a></li>
+                        <li><a href="product.html">QUẢN LÝ SẢN PHẨM</a></li>
+                        <li><a href="order_list.html" style="color: #a62c32;">QUẢN LÝ ĐƠN HÀNG</a></li>
+                        <li><a href="chart.html">THỐNG KÊ</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+    <section>
+        
+            <div class="box-center" style="min-height: 150px;">
+                <div class="box-cat">
+                    <div class="box-text">
+                        <a style="color: #a62c32;">ĐƠN HÀNG CỦA SHOP</a>
+                    </div>
+                    <div class="box-table">
+                        <table class="table table-bordered">
+                            <tr style="background-color: #eaeaea;">
+                                <th>ID ĐƠN</th>
+                                <th>NGƯỜI ĐẶT</th>              
+                                <th>SĐT</th>
+                                <th>SỐ LƯỢNG</th>
+                                <th>ĐƠN GIÁ</th>
+                                <th>ĐỊA CHỈ</th>
+                                <th>GHI CHÚ</th>
+                                <th>TRẠNG THÁI</th>
+                            </tr>
+                            <tbody id="order">
+                                <!-- <tr style="font-size: 1vw;">
+                                    <td>
+                                            <p>DH001</p>
+                                    </td>
+                                    <td>
+                                            <p>Lê Hữu Thanh</p>
+                                    </td>
+                                    <td>
+                                            <p>033225566</p>
+                                    </td>
+                                    <td>
+                                            <p>2</p>
+                                    </td>
+                                    <td>
+                                            <p>1.800.000 VNĐ</p>
+                                    </td>
+                                    <td>
+                                            <p>p. Ninh Thủy - tx. Ninh Hòa - t. Khánh Hòa</p>
+                                    </td>
+                                    <td>
+                                            <p>900.000 VNĐ</p>
+                                    </td>
+                                    <td style="color: #a62c32;">Đang chuẩn bị hàng</td>
+                                </tr>
+                                <tr style="font-size: 1vw;">
+                                    <td>
+                                            <p>DH001</p>
+                                    </td>
+                                    <td>
+                                            <p>Lê Hữu Thanh</p>
+                                    </td>
+                                    <td>
+                                            <p>033225566</p>
+                                    </td>
+                                    <td>
+                                            <p>2</p>
+                                    </td>
+                                    <td>
+                                            <p>1.800.000 VNĐ</p>
+                                    </td>
+                                    <td>
+                                            <p>p. Ninh Thủy - tx. Ninh Hòa - t. Khánh Hòa</p>
+                                    </td>
+                                    <td>
+                                            <p>900.000 VNĐ</p>
+                                    </td>
+                                    <td style="color: #20b84d;"><p>Giao hàng thành công</p></td>
+                                </tr> -->
+                            </tbody>
+                            
+                        </table>
+                    </div>
+                </div>
+                </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>    
+    <script src="./js/order.js"></script>
+</body>
+</html>
